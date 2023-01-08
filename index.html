@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Manrope:wght@500;800&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Maker pre-launch landing page</title>
+  </head>
+
+  <body>
+    <main>
+      <header>
+        <div class="header--img__wrapper">
+          <img class="header--img__logo" src="./images/logo.svg" alt="logo" />
+        </div>
+        <div class="header--wrapper">
+          <img
+            class="header--image__left"
+            src="./images/illustration-hero-left.svg"
+          />
+          <img
+            class="header--image__hero"
+            src="./images/illustration-hero-mobile.png"
+            alt=""
+            srcset=""
+          />
+
+          <div class="header--text">
+            <h1>
+              Get paid for the work you
+              <span class="header--text__love">love</span> to do.
+            </h1>
+            <p>
+              The 9-5 grind is so last century. We believe in living life on
+              your own terms. Whether you’re looking to escape the rat race or
+              set up a side hustle, we’ve got you covered.
+            </p>
+            <img
+              class="header--img__scroll"
+              src="./images/icon-scroll.svg"
+              alt="scroll"
+            />
+          </div>
+          <img
+            class="header--image__right"
+            src="./images/illustration-hero-right.svg"
+            alt="imeage-hero-right"
+          />
+        </div>
+      </header>
+
+      <article>
+        <div class="article--wrapper article--wrapper__right">
+          <div class="article--wrapper__img">
+            <img
+              class="article--img__egg"
+              src="./images/illustration-passions.svg"
+              alt="illustration-passions"
+            />
+          </div>
+          <div class="article--wrapper__text">
+            <h3>Indulge your passions</h3>
+            <p>
+              Your passions shouldn't be just for the weekend. Earn a living
+              doing what you love.
+            </p>
+          </div>
+        </div>
+
+        <div class="article--wrapper">
+          <div class="article--wrapper__img">
+            <img
+              src="./images/illustration-financial-freedom.svg"
+              alt="illustration-financial-freedom"
+              srcset=""
+            />
+          </div>
+          <div class="article--wrapper__text">
+            <h3>Gain financial freedom</h3>
+            <p>
+              Start making money work for you. There’s nothing quite like
+              earning while you sleep.
+            </p>
+          </div>
+        </div>
+
+        <div class="article--wrapper article--wrapper__right">
+          <div class="article--wrapper__img">
+            <img
+              src="./images/illustration-lifestyle.svg"
+              alt="illustration-lifestyle"
+            />
+          </div>
+          <div class="article--wrapper__text">
+            <h3>Choose your lifestyle</h3>
+            <p>
+              Own your daily schedule. Fancy a lie-in? Go for it! Take charge of
+              your week.
+            </p>
+          </div>
+        </div>
+
+        <div class="article--wrapper">
+          <div class="article--wrapper__img">
+            <img
+              src="./images/illustration-work-anywhere.svg"
+              alt="illustration-work-anywhere"
+            />
+          </div>
+          <div class="article--wrapper__text">
+            <h3>Work from anywhere</h3>
+            <p>
+              Selling online means not being pinned down. Want to work AND
+              travel? Go for it!
+            </p>
+          </div>
+        </div>
+      </article>
+
+      <section>
+        <div class="section--headline">
+          <h2>Our pricing plans</h2>
+          <p class="section--headline__text">
+            We only make money when our creators make money. Our plans are
+            always affordable, and it’s completely free to get started.
+          </p>
+        </div>
+
+        <div class="section--wrapper-first">
+          <img
+            class="section--wrapper__img"
+            src="./images/icon-free.svg"
+            alt="icon-free"
+          />
+          <h3>Dip your toe</h3>
+          <p class="section--wrapper__text">
+            Just getting started? No problem at all! Our free plan will take you
+            a long way.
+          </p>
+          <h2 class="section--wrapper__headline">Free</h2>
+          <ul>
+            <li>Unlimited products</li>
+            <li>Basic analytics</li>
+            <li>Limited marketplace exposure</li>
+            <li>10% fee per transaction</li>
+          </ul>
+        </div>
+
+        <div class="section--wrapper__second">
+          <img
+            class="section--wrapper__img"
+            src="./images/icon-paid.svg"
+            alt="icon-paid"
+          />
+
+          <h3>Dive right in</h3>
+          <p class="section--wrapper__text">
+            Ready for the big time? Our paid plan will help you take your
+            business to the next level.
+          </p>
+          <h2 class="section--wrapper__headline">
+            $25.00 <span class="section--wrapper__span">/ month</span>
+          </h2>
+          <ol>
+            <li>Custom domain</li>
+            <li>Advanced analytics and reports</li>
+            <li>High marketplace visibility</li>
+            <li>5% fee per transaction</li>
+          </ol>
+        </div>
+      </section>
+
+      <footer>
+        <h2>Get notified when we launch</h2>
+        <form method="post" action="http://127.0.0.1:5501/">
+          <label class="email">Email</label>
+          <input
+            class="email"
+            name="email"
+            type="email"
+            id="email"
+            pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$"
+            placeholder="name@domain.com"
+          />
+
+          <input
+            type="email"
+            name="eamilInput"
+            id="emailInput"
+            placeholder="Email address"
+            required=""
+            pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$"
+            ;
+          />
+          <button type="submit">Get notified</button>
+        </form>
+
+        <p class="footer--text">
+          Oops! That doesn’t look like an email address
+        </p>
+      </footer>
+    </main>
+    <script src="./index.js"></script>
+  </body>
+</html>
